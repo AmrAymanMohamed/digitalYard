@@ -1,0 +1,36 @@
+.CardContainer{
+        border: 1px solid #5f72bd;
+        background: transparent;
+        outline: none;
+        color: #5f72bd;
+        font-size: 1em;
+        font-weight: lighter;
+        border-radius: 2px;
+        padding: .3em 1.5em;
+        margin: 1em;
+        cursor: pointer;
+            &:hover{
+                border: 1px solid #5f72bd;
+                background: #5f72bd;
+                outline: none;
+                color: #fff;
+                font-size: 1em;
+                font-weight: lighter;
+                border-radius: 2px;
+                padding: .3em 1.5em;
+                margin: 1em;
+                cursor: pointer
+        }
+}
+.activeButton{
+    border: 1px solid green;
+    background: green;
+    outline: none;
+    color: #fff;
+    font-size: 1em;
+    font-weight: lighter;
+    border-radius: 2px;
+    padding: .3em 1.5em;
+    margin: 1em;
+    cursor: pointer;
+}

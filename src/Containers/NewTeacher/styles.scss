@@ -1,0 +1,60 @@
+.row{
+    display: block;
+    input {
+        display: block;
+        border: none;
+        outline: none;
+        width: 70%;
+        font-size: 1em;
+        padding: .6em .5em;
+        border-bottom: 2px solid #7a7a7a48;
+      }
+      .button {
+        display: block;
+        border: 1px solid #5f72bd;
+        background: #5f72bd;
+        outline: none;
+        color: #fff;
+        font-size: 1em;
+        font-weight: lighter;
+        border-radius: 2px;
+        padding: .3em 1.5em;
+        margin: 1em;
+        cursor: pointer;
+        &:hover{
+            background-color: #fff;
+            color: #5f72bd;
+        }
+      }
+}
+.col{
+   
+    display: inline-block;
+    width: 24%;
+}
+
+.groupCheckBox{
+    padding: 1em;
+    background: #fff;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+    .title{
+        text-align: center;
+    }
+}
+.Subject{
+    padding: .4em;
+    background: #fff;
+    margin: .5em;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15); 
+    button{
+        
+        padding: .3em 1.5em;
+        
+        cursor: pointer;
+    }
+    
+}
+.NewTeacherContainer{
+    margin: 1em auto;
+    width:80%;
+}

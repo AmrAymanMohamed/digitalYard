@@ -1,0 +1,30 @@
+.SubjectName{
+    h4{
+        display: inline-block;
+        .dropIcon{
+            margin-left:1em;
+        }
+    }
+    input {
+        display: inline-block;
+    }
+    label {
+        display: inline-block;
+    }
+    .hideBtn{
+        padding: .3em;
+        border-color: transparent;
+        color: #000;
+        background-color: #fff;
+        &:hover{
+           border-color: transparent; 
+        }
+    }
+}
+.SubjectsContainer{
+    overflow-y: auto;
+    height: 40em;
+    .title{
+        text-align: center;
+    }
+}

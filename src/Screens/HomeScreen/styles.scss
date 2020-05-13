@@ -1,0 +1,20 @@
+.HomeContainer{
+    margin: 5px;
+    .button {
+        display: block;
+        border: 1px solid #fff;
+        background: #5f72bd;
+        outline: none;
+        color: #fff;
+        font-size: 1em;
+        font-weight: lighter;
+        border-radius: 2px;
+        padding: .3em 1.5em;
+        cursor: pointer;
+        &:hover{
+            background-color: #fff;
+            color: #5f72bd;
+            border: 1px solid #5f72bd;
+        }
+      }
+}
